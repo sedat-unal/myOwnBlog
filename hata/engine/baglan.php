@@ -1,9 +1,8 @@
 <?php
-    $host = "localhost";
-    $dbname = "rfyalmhi_blog";
-    $user = "rfyalmhi_blog";
-    $pass = "FNaT%-@0g23L";
-    // "5.2.87.161"
+    $host = "";
+    $dbname = "";
+    $user = "";
+    $pass = "";
     try{
         $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", "$user", "$pass");
         $db->query("SET CHARSET SET UTF8");

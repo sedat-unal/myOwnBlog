@@ -1,9 +1,9 @@
 <?php
     ob_start();
-    $host = "localhost";
-    $dbname = "rfyalmhi_blog";
-    $user = "rfyalmhi_blog";
-    $pass = "FNaT%-@0g23L";
+    $host = "";
+    $dbname = "";
+    $user = "";
+    $pass = "";
     // "5.2.87.161"
     try{
         $db = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8;", "$user", "$pass");
